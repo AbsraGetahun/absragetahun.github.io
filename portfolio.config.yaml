@@ -25,7 +25,7 @@ openToWork: true
 
 # ── Theme ──────────────────────────────────────────────────────────────
 defaultTheme: "system"
-colorPreset: "emerald"
+colorPreset: "emerald"  # Options: indigo | emerald | rose | amber | ocean | slate
 
 resumeTheme:
   twoColumn: "indigo"
@@ -130,13 +130,14 @@ projects:
     repoUrl: "https://github.com/AbsraGetahun/jobportal"
     featured: true
 
-  - name: "Telegram AI Finance Assistant"
+  - name: "Atlas AI Financial Assistant"
     description: |
       AI-powered Telegram bot for real-time financial tracking, portfolio management, and price alerts.
-      Built with Python, integrates with cryptocurrency and stock market APIs.
-    tags: [Python, "Telegram API", "REST APIs", Finance]
+      Built with Python, integrates with Yahoo Finance and Finnhub APIs.
+      Features conversational NLP, zero-command interface, and automated daily briefings.
+    tags: [Python, "Telegram API", "REST APIs", Finance, "NLP"]
     liveUrl: ""  # ← Add your bot's Telegram link here (e.g., https://t.me/yourbot)
-    repoUrl: "https://github.com/AbsraGetahun/telegram-finance-bot"
+    repoUrl: "https://github.com/AbsraGetahun/atlas-financial-assistant"
     featured: false
 
 # ── Education ──────────────────────────────────────────────────────────
