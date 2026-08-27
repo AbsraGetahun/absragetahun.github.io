@@ -9,12 +9,16 @@ showPoweredBy: false
 
 # ── Identity ──────────────────────────────────────────────────────────
 name: "Absra Getahun"
-title: "Full-Stack Developer & AI/ML Engineer"
-tagline: "Building full-stack applications and AI-powered solutions"
-email: "abssraabby@gmail.com"
+title: "Junior AI/ML Engineer — RAG & LLM Focus"
+tagline: "Building AI-powered solutions with RAG, FAISS, and LLMs"
+email: "absaabby@gmail.com"
 phone: "+251982022291"
 location: "Addis Ababa, Ethiopia"
 avatarUrl: "https://github.com/absragetahun.png"
+
+# ── Resume Download ────────────────────────────────────────────────────
+resumeUrl: "https://raw.githubusercontent.com/AbsraGetahun/absragetahun.github.io/main/Absra%20Getahun.pdf"
+resumeFileName: "Absra_Getahun_Resume.pdf"
 
 # ── Status ─────────────────────────────────────────────────────────────
 openToWork: true
@@ -52,12 +56,11 @@ social:
 
 # ── About ──────────────────────────────────────────────────────────────
 about: |
-  Computer Science graduate (GPA: 3.55/4.0) with hands-on experience in 
-  full-stack development and AI/ML. Built and deployed 3 production applications:
-  an AI-powered learning platform using RAG and FAISS with 800+ curriculum pages,
-  a full-stack job portal with Laravel, and a Telegram financial assistant bot.
-  Passionate about building intelligent web applications that solve real problems.
-  Open to remote full-stack and AI/ML roles.
+  Computer Science graduate with hands-on experience in Retrieval-Augmented Generation (RAG),
+  FAISS vector databases, and LLM integration. Built a personalized mathematics learning system
+  that detects student knowledge gaps and generates curriculum-aligned practice with source citations.
+  Also developed a full-stack job portal with React and Laravel, and a Telegram AI finance assistant.
+  Eager to contribute as a junior AI/ML Engineer.
 
 # ── Languages ──────────────────────────────────────────────────────────
 languages:
@@ -66,16 +69,16 @@ languages:
 
 # ── Skills ─────────────────────────────────────────────────────────────
 skills:
-  - category: "Frontend"
-    items: [React, JavaScript, TypeScript, Next.js, Tailwind CSS, HTML, CSS]
-  - category: "Backend"
-    items: [Laravel, Python, Flask, REST APIs, PHP]
   - category: "AI/ML"
     items: ["RAG Architecture", FAISS, "LLM Integration", Scikit-learn, Pandas, NumPy]
+  - category: "Backend"
+    items: [Python, Flask, "REST APIs", Laravel, PHP]
+  - category: "Frontend"
+    items: [React, JavaScript, TypeScript, Tailwind CSS, HTML, CSS]
   - category: "Database"
     items: [MySQL, MongoDB]
   - category: "Tools"
-    items: [Git, GitHub, "VS Code", "Agile/Scrum", "Unit Testing"]
+    items: [Git, GitHub, "VS Code", "Agile/Scrum"]
 
 # ── Experience ─────────────────────────────────────────────────────────
 experience:
@@ -92,14 +95,27 @@ experience:
       - "Agile collaboration"
       - "Code reviews"
 
+  - company: "Adishiwot Charity Group"
+    role: "Volunteer Team Member"
+    period: "Jan 2025 – Present"
+    location: "Addis Ababa, Ethiopia"
+    description: |
+      Coordinate 90+ volunteers in organizing donation drives and fundraising events.
+      Support 100+ disabled, elderly, and orphaned community members annually.
+    highlights:
+      - "Volunteer coordination"
+      - "Event organization"
+      - "Community support"
+
 # ── Projects ───────────────────────────────────────────────────────────
 projects:
-  - name: "EDUCARE — AI-Powered Learning Platform"
+  - name: "EDUCARE — RAG-Based Mathematics Learning System"
     description: |
-      RAG-based mathematics learning system using FAISS vector database with 800+ Ethiopian Grades 9-12 curriculum pages.
-      Role-based dashboards (Student, Teacher, Family, Admin) with JWT authentication.
-      Integrated LLM to generate personalized practice exercises with source citations.
-    tags: [React, Python, Flask, FAISS, "Tailwind CSS", "JWT"]
+      RAG system using FAISS vector database indexing 800+ pages of Ethiopian Grades 9-12 Mathematics curriculum.
+      Integrated LLM (OpenAI/LLaMA) to generate personalized practice exercises with source citations.
+      Designed mastery-based progression requiring 70% threshold before advancing to next topic.
+      Built role-based dashboards (Student, Teacher, Family, Admin) with JWT authentication.
+    tags: ["RAG", FAISS, "LLM", Python, Flask, React, "JWT"]
     liveUrl: "https://gleeful-pudding-b879f1.netlify.app"
     repoUrl: "https://github.com/AbsraGetahun/educare"
     featured: true
@@ -118,8 +134,8 @@ projects:
     description: |
       AI-powered Telegram bot for real-time financial tracking, portfolio management, and price alerts.
       Built with Python, integrates with cryptocurrency and stock market APIs.
-    tags: [Python, "Telegram API", "REST APIs", "Finance"]
-    liveUrl: ""  # ← Add your bot's Telegram link here
+    tags: [Python, "Telegram API", "REST APIs", Finance]
+    liveUrl: ""  # ← Add your bot's Telegram link here (e.g., https://t.me/yourbot)
     repoUrl: "https://github.com/AbsraGetahun/telegram-finance-bot"
     featured: false
 
