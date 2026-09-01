@@ -36,7 +36,7 @@ contactFormEndpoint: ""
 # ── Section visibility ─────────────────────────────────────────────────
 sections:
   - { id: about,          show: true  }
-  - { id: stats,          show: false }  # ← STATS ARE NOW HIDDEN
+  - { id: stats,          show: false }
   - { id: skills,         show: true  }
   - { id: languages,      show: true  }
   - { id: experience,     show: true  }
@@ -144,7 +144,7 @@ projects:
 education:
   - institution: "University of Gondar"
     degree: "Bachelor of Science in Computer Science"
-    period: "2022 – 2026"  # ← UPDATED
+    period: "2022 – 2026"
     gpa: "3.55/4.0"
 
 # ── Blog ──────────────────────────────────────────────────────────────
