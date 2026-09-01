@@ -25,7 +25,7 @@ openToWork: true
 
 # ── Theme ──────────────────────────────────────────────────────────────
 defaultTheme: "system"
-colorPreset: "emerald"  # Options: indigo | emerald | rose | amber | ocean | slate
+colorPreset: "emerald"
 
 resumeTheme:
   twoColumn: "indigo"
@@ -36,7 +36,7 @@ contactFormEndpoint: ""
 # ── Section visibility ─────────────────────────────────────────────────
 sections:
   - { id: about,          show: true  }
-  - { id: stats,          show: false }
+  - { id: stats,          show: false }  # ← STATS ARE NOW HIDDEN
   - { id: skills,         show: true  }
   - { id: languages,      show: true  }
   - { id: experience,     show: true  }
@@ -144,7 +144,7 @@ projects:
 education:
   - institution: "University of Gondar"
     degree: "Bachelor of Science in Computer Science"
-    period: "2021 – 2025"
+    period: "2022 – 2026"  # ← UPDATED
     gpa: "3.55/4.0"
 
 # ── Blog ──────────────────────────────────────────────────────────────
